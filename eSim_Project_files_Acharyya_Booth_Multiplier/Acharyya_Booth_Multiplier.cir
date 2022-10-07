@@ -1,0 +1,81 @@
+* /home/acharyya.nelson/eSim-Workspace/Acharyya_Booth_Multiplier/Acharyya_Booth_Multiplier.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Fri 07 Oct 2022 01:51:11 AM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U10  Clock Reset Start Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U10-Pad6_ adc_bridge_3		
+U11  X3 X2 X1 X0 Y3 Y2 Y1 Y0 Net-_U11-Pad9_ Net-_U11-Pad10_ Net-_U11-Pad11_ Net-_U11-Pad12_ Net-_U11-Pad13_ Net-_U11-Pad14_ Net-_U11-Pad15_ Net-_U11-Pad16_ adc_bridge_8		
+U19  Net-_U19-Pad1_ Net-_U19-Pad2_ Net-_U19-Pad3_ Net-_U19-Pad4_ Net-_U19-Pad5_ Net-_U19-Pad6_ Net-_U19-Pad7_ Net-_U19-Pad8_ Net-_SC21-Pad1_ Net-_SC25-Pad1_ Net-_SC27-Pad1_ Net-_SC29-Pad1_ Net-_SC30-Pad1_ Net-_SC31-Pad1_ Net-_SC32-Pad1_ Net-_SC23-Pad1_ dac_bridge_8		
+U20  Net-_U20-Pad1_ Net-_SC19-Pad1_ dac_bridge_1		
+Vbias1  Net-_SC17-Pad2_ GND DC		
+SC9  Net-_SC9-Pad1_ Y3 Net-_SC9-Pad1_ sky130_fd_pr__res_generic_pd		
+SC12  Net-_SC12-Pad1_ Y2 Net-_SC12-Pad1_ sky130_fd_pr__res_generic_pd		
+SC15  Net-_SC15-Pad1_ Y1 Net-_SC15-Pad1_ sky130_fd_pr__res_generic_pd		
+SC16  Net-_SC16-Pad1_ Y0 Net-_SC16-Pad1_ sky130_fd_pr__res_generic_pd		
+SC17  Reset Net-_SC17-Pad2_ Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC18  Start Net-_SC17-Pad2_ Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC1  Net-_SC1-Pad1_ X3 Net-_SC1-Pad1_ sky130_fd_pr__res_generic_pd		
+SC3  Net-_SC3-Pad1_ X2 Net-_SC3-Pad1_ sky130_fd_pr__res_generic_pd		
+SC6  Net-_SC6-Pad1_ X1 Net-_SC6-Pad1_ sky130_fd_pr__res_generic_pd		
+SC8  Net-_SC8-Pad1_ X0 Net-_SC8-Pad1_ sky130_fd_pr__res_generic_pd		
+SC32  Net-_SC32-Pad1_ Z1 Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC36  Z1 GND sky130_fd_pr__cap_mim_m3_1		
+U25  Z1 plot_v1		
+SC31  Net-_SC31-Pad1_ Z2 Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC35  Z2 GND sky130_fd_pr__cap_mim_m3_1		
+U24  Z2 plot_v1		
+SC30  Net-_SC30-Pad1_ Z3 Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC34  Z3 GND sky130_fd_pr__cap_mim_m3_1		
+U23  Z3 plot_v1		
+SC29  Net-_SC29-Pad1_ Z4 Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC33  Z4 GND sky130_fd_pr__cap_mim_m3_1		
+U22  Z4 plot_v1		
+SC27  Net-_SC27-Pad1_ Z5 Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC28  Z5 GND sky130_fd_pr__cap_mim_m3_1		
+U21  Z5 plot_v1		
+SC25  Net-_SC25-Pad1_ Z6 Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC26  Z6 GND sky130_fd_pr__cap_mim_m3_1		
+U18  Z6 plot_v1		
+SC21  Net-_SC21-Pad1_ Z7 Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC22  Z7 GND sky130_fd_pr__cap_mim_m3_1		
+U13  Z7 plot_v1		
+SC19  Net-_SC19-Pad1_ valid Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC20  valid GND sky130_fd_pr__cap_mim_m3_1		
+U12  valid plot_v1		
+SC23  Net-_SC23-Pad1_ Z0 Net-_SC17-Pad2_ sky130_fd_pr__res_generic_pd		
+SC24  Z0 GND sky130_fd_pr__cap_mim_m3_1		
+U16  Z0 plot_v1		
+scmode1  SKY130mode		
+U14  Clock plot_v1		
+U17  Reset plot_v1		
+U15  Start plot_v1		
+U1  X3 plot_v1		
+U2  X2 plot_v1		
+U3  X1 plot_v1		
+U4  X0 plot_v1		
+U5  Y3 plot_v1		
+U6  Y2 plot_v1		
+U7  Y1 plot_v1		
+U9  Y0 plot_v1		
+Vbias2  Net-_SC1-Pad1_ GND DC		
+Vbias9  Net-_SC16-Pad1_ GND DC		
+Vbias3  Net-_SC3-Pad1_ GND DC		
+Vbias4  Net-_SC6-Pad1_ GND DC		
+Vbias5  Net-_SC8-Pad1_ GND DC		
+Vbias6  Net-_SC9-Pad1_ GND DC		
+Vbias7  Net-_SC12-Pad1_ GND DC		
+Vbias8  Net-_SC15-Pad1_ GND DC		
+U8  Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U10-Pad6_ Net-_U11-Pad9_ Net-_U11-Pad10_ Net-_U11-Pad11_ Net-_U11-Pad12_ Net-_U11-Pad13_ Net-_U11-Pad14_ Net-_U11-Pad15_ Net-_U11-Pad16_ Net-_U19-Pad1_ Net-_U19-Pad2_ Net-_U19-Pad3_ Net-_U19-Pad4_ Net-_U19-Pad5_ Net-_U19-Pad6_ Net-_U19-Pad7_ Net-_U19-Pad8_ Net-_U20-Pad1_ bikas_boothmul		
+U26  Net-_U26-Pad1_ Net-_U26-Pad2_ Net-_U26-Pad3_ xor_gate		
+U27  Net-_U27-Pad1_ Net-_U26-Pad1_ adc_bridge_1		
+U28  Clock Net-_U26-Pad2_ adc_bridge_1		
+U30  Net-_U26-Pad3_ Net-_SC2-Pad1_ dac_bridge_1		
+SC2  Net-_SC2-Pad1_ Clock ? sky130_fd_pr__res_generic_pd		
+SC4  Clock GND sky130_fd_pr__cap_mim_m3_1		
+U29  Clock IC		
+v1  Net-_U27-Pad1_ GND DC		
+
+.end

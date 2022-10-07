@@ -1,0 +1,120 @@
+* /home/acharyya.nelson/esim-workspace/acharyya_booth_multiplier/acharyya_booth_multiplier.cir
+
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__pnp.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__r+c.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__linear.model.spice"
+.lib "/usr/share/local/sky130_fd_pr/models/sky130.lib.spice" tt
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__inductors.model.spice"
+* u29  clock ic
+.ic v(clock)=0
+* u10  clock reset start net-_u10-pad4_ net-_u10-pad5_ net-_u10-pad6_ adc_bridge_3
+* u11  x3 x2 x1 x0 y3 y2 y1 y0 net-_u11-pad9_ net-_u11-pad10_ net-_u11-pad11_ net-_u11-pad12_ net-_u11-pad13_ net-_u11-pad14_ net-_u11-pad15_ net-_u11-pad16_ adc_bridge_8
+* u19  net-_u19-pad1_ net-_u19-pad2_ net-_u19-pad3_ net-_u19-pad4_ net-_u19-pad5_ net-_u19-pad6_ net-_u19-pad7_ net-_u19-pad8_ net-_sc21-pad1_ net-_sc25-pad1_ net-_sc27-pad1_ net-_sc29-pad1_ net-_sc30-pad1_ net-_sc31-pad1_ net-_sc32-pad1_ net-_sc23-pad1_ dac_bridge_8
+* u20  net-_u20-pad1_ net-_sc19-pad1_ dac_bridge_1
+vbias1 net-_sc17-pad2_ gnd  dc 3
+xsc9 net-_sc9-pad1_ y3 net-_sc9-pad1_ sky130_fd_pr__res_generic_pd 
+xsc12 net-_sc12-pad1_ y2 net-_sc12-pad1_ sky130_fd_pr__res_generic_pd 
+xsc15 net-_sc15-pad1_ y1 net-_sc15-pad1_ sky130_fd_pr__res_generic_pd 
+xsc16 net-_sc16-pad1_ y0 net-_sc16-pad1_ sky130_fd_pr__res_generic_pd 
+xsc17 reset net-_sc17-pad2_ net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc18 start net-_sc17-pad2_ net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc1 net-_sc1-pad1_ x3 net-_sc1-pad1_ sky130_fd_pr__res_generic_pd 
+xsc3 net-_sc3-pad1_ x2 net-_sc3-pad1_ sky130_fd_pr__res_generic_pd 
+xsc6 net-_sc6-pad1_ x1 net-_sc6-pad1_ sky130_fd_pr__res_generic_pd 
+xsc8 net-_sc8-pad1_ x0 net-_sc8-pad1_ sky130_fd_pr__res_generic_pd 
+xsc32 net-_sc32-pad1_ z1 net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc36 z1 gnd sky130_fd_pr__cap_mim_m3_1 
+* u25  z1 plot_v1
+xsc31 net-_sc31-pad1_ z2 net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc35 z2 gnd sky130_fd_pr__cap_mim_m3_1 
+* u24  z2 plot_v1
+xsc30 net-_sc30-pad1_ z3 net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc34 z3 gnd sky130_fd_pr__cap_mim_m3_1 
+* u23  z3 plot_v1
+xsc29 net-_sc29-pad1_ z4 net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc33 z4 gnd sky130_fd_pr__cap_mim_m3_1 
+* u22  z4 plot_v1
+xsc27 net-_sc27-pad1_ z5 net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc28 z5 gnd sky130_fd_pr__cap_mim_m3_1 
+* u21  z5 plot_v1
+xsc25 net-_sc25-pad1_ z6 net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc26 z6 gnd sky130_fd_pr__cap_mim_m3_1 
+* u18  z6 plot_v1
+xsc21 net-_sc21-pad1_ z7 net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc22 z7 gnd sky130_fd_pr__cap_mim_m3_1 
+* u13  z7 plot_v1
+xsc19 net-_sc19-pad1_ valid net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc20 valid gnd sky130_fd_pr__cap_mim_m3_1 
+* u12  valid plot_v1
+xsc23 net-_sc23-pad1_ z0 net-_sc17-pad2_ sky130_fd_pr__res_generic_pd 
+xsc24 z0 gnd sky130_fd_pr__cap_mim_m3_1 
+* u16  z0 plot_v1
+* s c m o d e
+* u14  clock plot_v1
+* u17  reset plot_v1
+* u15  start plot_v1
+* u1  x3 plot_v1
+* u2  x2 plot_v1
+* u3  x1 plot_v1
+* u4  x0 plot_v1
+* u5  y3 plot_v1
+* u6  y2 plot_v1
+* u7  y1 plot_v1
+* u9  y0 plot_v1
+vbias2 net-_sc1-pad1_ gnd  dc 0
+vbias9 net-_sc16-pad1_ gnd  dc 0
+vbias3 net-_sc3-pad1_ gnd  dc 3
+vbias4 net-_sc6-pad1_ gnd  dc 3
+vbias5 net-_sc8-pad1_ gnd  dc 0
+vbias6 net-_sc9-pad1_ gnd  dc 0
+vbias7 net-_sc12-pad1_ gnd  dc 3
+vbias8 net-_sc15-pad1_ gnd  dc 0
+* u8  net-_u10-pad4_ net-_u10-pad5_ net-_u10-pad6_ net-_u11-pad9_ net-_u11-pad10_ net-_u11-pad11_ net-_u11-pad12_ net-_u11-pad13_ net-_u11-pad14_ net-_u11-pad15_ net-_u11-pad16_ net-_u19-pad1_ net-_u19-pad2_ net-_u19-pad3_ net-_u19-pad4_ net-_u19-pad5_ net-_u19-pad6_ net-_u19-pad7_ net-_u19-pad8_ net-_u20-pad1_ bikas_boothmul
+* u26  net-_u26-pad1_ net-_u26-pad2_ net-_u26-pad3_ xor_gate
+* u27  net-_u27-pad1_ net-_u26-pad1_ adc_bridge_1
+* u28  clock net-_u26-pad2_ adc_bridge_1
+* u30  net-_u26-pad3_ net-_sc2-pad1_ dac_bridge_1
+xsc2 net-_sc2-pad1_ clock ? sky130_fd_pr__res_generic_pd 
+xsc4 clock gnd sky130_fd_pr__cap_mim_m3_1 
+* u29  clock ic
+v1 net-_u27-pad1_ gnd  dc 3
+a1 [clock reset start ] [net-_u10-pad4_ net-_u10-pad5_ net-_u10-pad6_ ] u10
+a2 [x3 x2 x1 x0 y3 y2 y1 y0 ] [net-_u11-pad9_ net-_u11-pad10_ net-_u11-pad11_ net-_u11-pad12_ net-_u11-pad13_ net-_u11-pad14_ net-_u11-pad15_ net-_u11-pad16_ ] u11
+a3 [net-_u19-pad1_ net-_u19-pad2_ net-_u19-pad3_ net-_u19-pad4_ net-_u19-pad5_ net-_u19-pad6_ net-_u19-pad7_ net-_u19-pad8_ ] [net-_sc21-pad1_ net-_sc25-pad1_ net-_sc27-pad1_ net-_sc29-pad1_ net-_sc30-pad1_ net-_sc31-pad1_ net-_sc32-pad1_ net-_sc23-pad1_ ] u19
+a4 [net-_u20-pad1_ ] [net-_sc19-pad1_ ] u20
+a5 [net-_u10-pad4_ ] [net-_u10-pad5_ ] [net-_u10-pad6_ ] [net-_u11-pad9_ net-_u11-pad10_ net-_u11-pad11_ net-_u11-pad12_ ] [net-_u11-pad13_ net-_u11-pad14_ net-_u11-pad15_ net-_u11-pad16_ ] [net-_u19-pad1_ net-_u19-pad2_ net-_u19-pad3_ net-_u19-pad4_ net-_u19-pad5_ net-_u19-pad6_ net-_u19-pad7_ net-_u19-pad8_ ] [net-_u20-pad1_ ] u8
+a6 [net-_u26-pad1_ ] [net-_u26-pad2_ ] [net-_u26-pad3_ ] u26
+a7 [net-_u27-pad1_ ] [net-_u26-pad1_ ] u27
+a8 [clock ] [net-_u26-pad2_ ] u28
+a9 [net-_u26-pad3_ ] [net-_sc2-pad1_ ] u30
+* Schematic Name:                             adc_bridge_3, NgSpice Name: adc_bridge
+.model u10 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u11 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u19 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u20 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             bikas_boothmul, NgSpice Name: bikas_boothmul
+.model u8 bikas_boothmul(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             xor_gate, NgSpice Name: xor_gate
+.model u26 xor_gate(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u27 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u28 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u30 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+.tran 0.1e-09 100e-09 0e-09
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(clock)+60 v(z0)+54 v(z1)+48 v(z2)+42 v(z3)+36 v(z4)+30 v(z5)+24 v(z6)+18 v(z7)+12 v(valid)+6
+plot v(clock)+66 v(reset)+60 v(start)+54 v(x3)+48 v(x2)+42 v(x1)+36 v(x0)+30 v(y3)+24 v(y2)+18 v(y1)+12 v(y0)+6
+.endc
+.end
