@@ -2,18 +2,30 @@
 # BOOTH MULTIPLIER
 
 1. [Abstract](https://github.com/replica455/Booth-Multiplier#abstract)
+
 2. [Reference Circuit](https://github.com/replica455/Booth-Multiplier#reference-circuit)
+
 3. [Circuit Details](https://github.com/replica455/Booth-Multiplier#circuit-details)
+
 4. [Expected Output](https://github.com/replica455/Booth-Multiplier#expected-inout-and-output)
+
 5. [Software Used](https://github.com/replica455/Booth-Multiplier#software-used)
+
 6. [Implemented Circuit Diagram](https://github.com/replica455/Booth-Multiplier#implemented-circuit-diagram)
+
 7. [Circuit Segmentation Diagram](https://github.com/replica455/Booth-Multiplier#circuit-segmentation-diagram)
+
 8. [Circuit Explanation](https://github.com/replica455/Booth-Multiplier#circuit-explanation)
+
 9. [Overall Circuit Netlist](https://github.com/replica455/Booth-Multiplier#overall-circuit-netlist)
- 10.[NGspice Plot](https://github.com/replica455/Booth-Multiplier#ngspice-plot)
- 11.[Steps to Run NGspice](https://github.com/replica455/Booth-Multiplier#steps-to-run-ngveri-model)
- 12.[Acknowledgement](https://github.com/replica455/Booth-Multiplier#acknowledgements)
- 13.[Reference](https://github.com/replica455/Booth-Multiplier#references)
+
+  10.[NGspice Plot](https://github.com/replica455/Booth-Multiplier#ngspice-plot)
+
+  11.[Steps to Run NGspice](https://github.com/replica455/Booth-Multiplier#steps-to-run-ngveri-model)
+
+  12.[Acknowledgement](https://github.com/replica455/Booth-Multiplier#acknowledgements)
+
+  13.[Reference](https://github.com/replica455/Booth-Multiplier#references)
 
 ### ABSTRACT
 
