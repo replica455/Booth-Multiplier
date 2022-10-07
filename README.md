@@ -22,11 +22,11 @@ From the reference circuit it is clear that we are dealing with 4 bit booth mult
 
 ### EXPECTED INOUT AND OUTPUT
 
-I.    X = -3 , Y = -3  THEN OUTPUT Z = 9
-II.   X = 6  , Y = 4   THEN OUTPUT Z = 24
-III.  X = 6  , Y = -4  THEN OUTPUT Z = -24
-IV .  X = 4  , Y = -7  THEN OUTPUT Z = -35
-V.    X = 7  , Y = -7  THEN OUTPUT Z = -49
+1. X = -3 , Y = -3  THEN OUTPUT Z = 9
+2. X = 6  , Y = 4   THEN OUTPUT Z = 24
+3. X = 6  , Y = -4  THEN OUTPUT Z = -24
+4. X = 4  , Y = -7  THEN OUTPUT Z = -35
+5. X = 7  , Y = -7  THEN OUTPUT Z = -49
 
 ### SOFTWARE USED
 
@@ -368,11 +368,12 @@ As usual always look for the result where the valid bit is equals to 1.
 
 ### Acknowledgements
 
-1. FOSSEE, IIT Bombay
-2. Sumanto Kar, eSim Team, FOSSEE
-3. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-4. Steve Hoover, Founder, Redwood EDA
-6. Ajay , Electro Binary Blog 
+1. http://iitb.ac.in/
+2. https://www.google.co.in/
+3. https://fossee.in/
+4. https://spoken-tutorial.org/
+5. https://www.vlsisystemdesign.com/
+6. https://www.c2s.gov.in/
 
 ### References
 
