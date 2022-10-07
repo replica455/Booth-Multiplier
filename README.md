@@ -10,14 +10,10 @@
 7. [Circuit Segmentation Diagram](https://github.com/replica455/Booth-Multiplier#circuit-segmentation-diagram)
 8. [Circuit Explanation](https://github.com/replica455/Booth-Multiplier#circuit-explanation)
 9. [Overall Circuit Netlist](https://github.com/replica455/Booth-Multiplier#overall-circuit-netlist)
- 
-10.[NGspice Plot](https://github.com/replica455/Booth-Multiplier#ngspice-plot)
-
-11.[Steps to Run NGspice](https://github.com/replica455/Booth-Multiplier#steps-to-run-ngveri-model)
-
-12.[Acknowledgement](https://github.com/replica455/Booth-Multiplier#acknowledgements)
-
-13.[Reference](https://github.com/replica455/Booth-Multiplier#references)
+ 10.[NGspice Plot](https://github.com/replica455/Booth-Multiplier#ngspice-plot)
+ 11.[Steps to Run NGspice](https://github.com/replica455/Booth-Multiplier#steps-to-run-ngveri-model)
+ 12.[Acknowledgement](https://github.com/replica455/Booth-Multiplier#acknowledgements)
+ 13.[Reference](https://github.com/replica455/Booth-Multiplier#references)
 
 ### ABSTRACT
 
