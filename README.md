@@ -428,6 +428,12 @@ As usual always look for the result where the valid bit is equals to 1.
 ![24](https://user-images.githubusercontent.com/55652905/194485023-5460e28c-baf3-49d6-814b-09ea1c4190f5.JPG)
 
 
+### DAC IP
+
+![dac](https://github.com/replica455/Booth-Multiplier/assets/55652905/836471e3-b0e6-4423-accb-2d016828e28a)
+
+
+
 ### Steps to run NGveri model
 
 1. Open eSim
