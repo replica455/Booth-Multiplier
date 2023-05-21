@@ -91,6 +91,8 @@ __BOOTH MULTIPLIER__
 I am using 4 bit booth multiplier which produces 8 bit output. It is designed using verilog code and is a sequential FSM circuit. Along with the input and output we have "Start" pin - unless start pin = 1 or Vdd, the circuit will not response. "Reset" pin - it is an active low reser, so for normal operation of circuit put reset pin = 1 i.e. Vdd. "Valid" pin - whenever in output response valid pin is high then at that particular instance observe the values of pin Z0 to Z7 to get the correct multiplication output. Other than that the input, output pins are straight forward. The clock circuit will be discussed.
 
 __Booth Multiplier Verilog Code In Makerchip__
+
+
 Concept 
 
 ![boothm](https://github.com/replica455/Booth-Multiplier/assets/55652905/66f5ee25-a62b-4052-ba72-db6ef467add7)
